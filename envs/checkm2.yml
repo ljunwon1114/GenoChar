@@ -1,0 +1,8 @@
+name: checkm2
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.11
+  - checkm2

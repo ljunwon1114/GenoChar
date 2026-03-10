@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genochar"
+version = "0.4.0"
+description = "Publication-ready genome characterization table generator for bacterial and archaeal genomes"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+  {name = "Your Name"}
+]
+keywords = [
+  "bioinformatics",
+  "genomics",
+  "genome-assembly",
+  "genome-annotation",
+  "microbiology",
+  "bacteria",
+  "archaea",
+  "checkm2",
+  "prokka",
+  "bakta",
+]
+dependencies = [
+  "pandas>=2.0",
+  "openpyxl>=3.1"
+]
+
+[project.urls]
+Homepage = "https://github.com/your-username/genochar"
+Issues = "https://github.com/your-username/genochar/issues"
+
+[project.scripts]
+genochar = "genochar.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["genochar*"]
