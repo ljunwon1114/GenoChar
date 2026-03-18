@@ -97,7 +97,7 @@ The main output table contains:
 Clone the repository and install it into the currently active environment:
 
 ```bash
-git clone https://github.com/your-username/genochar.git
+git clone https://github.com/ljunwon1114/genochar.git
 cd genochar
 pip install -e .
 ```

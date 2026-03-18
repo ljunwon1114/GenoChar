@@ -30,8 +30,8 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/your-username/genochar"
-Issues = "https://github.com/your-username/genochar/issues"
+Homepage = "https://github.com/ljunwon1114/genochar"
+Issues = "https://github.com/ljunwon1114/genochar/issues"
 
 [project.scripts]
 genochar = "genochar.cli:main"
