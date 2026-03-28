@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use GenoChar, please cite this software."
+type: software
+title: "GenoChar"
+version: "0.6.3.2"
+authors:
+  - family-names: "Lee"
+    given-names: "Jun Won"
+license: "MIT"
+url: "https://github.com/ljunwon1114/GenoChar"
+repository-code: "https://github.com/ljunwon1114/GenoChar"
