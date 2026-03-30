@@ -78,6 +78,7 @@ git clone https://github.com/ljunwon1114/genochar.git
 cd genochar
 pip install -e .
 ```
+
 ---
 
 ## One-time managed setup
@@ -355,19 +356,20 @@ Archived software release used for the manuscript:
 
 - Zenodo DOI: https://doi.org/10.5281/zenodo.19279904
 
-Python distribution:
+distribution:
 
 - PyPI: https://pypi.org/project/GenoChar/
 
-Conda distribution:
-
-- Bioconda: `conda install -c bioconda genochar`
+- Bioconda: https://anaconda.org/bioconda/genochar
 
 ---
+
 ## Contact
 
 For questions or feedback, please open a [GitHub Issue](https://github.com/ljunwon1114/genochar/issues)
+
 or contact the author at ljunwon1114@gmail.com
+
 ---
 
 ## License
